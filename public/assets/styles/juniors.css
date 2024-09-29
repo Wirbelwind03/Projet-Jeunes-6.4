@@ -1,0 +1,33 @@
+.user-color
+{
+    color: #fb3199;
+}
+
+.user-border-color,
+.block, 
+.checkbox-description,
+.dropdown.logged-in > .dropdown-item > li,
+.dropdown.logged-in > .dropdown-item:first-child > li:first-child,
+.dropdown.logged-in > .dropdown-item > li:last-child,
+.form-button,
+.form-control:focus,
+.tabs-container > .create-button,
+.text-block
+{
+    border-color: #fb3199;
+}
+
+.form-button,
+.checkbox-description,
+.circle-step.complete,
+.dropdown.logged-in > .dropdown-item:first-child > li:first-child,
+.tab-button.active,
+.tabs-container > .create-button
+{
+    background-color: #fb3199;
+}
+
+input[type=checkbox]:checked{
+    accent-color: #fb3199;
+}
+

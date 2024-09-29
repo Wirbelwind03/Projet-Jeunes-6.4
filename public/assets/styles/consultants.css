@@ -1,0 +1,29 @@
+.user-color
+{
+    color: #00b9f2;
+}
+
+.user-border-color,
+.block, 
+.checkbox-header,
+.checkbox-description,
+.dropdown.logged-in > .dropdown-item > li,
+.dropdown.logged-in > .dropdown-item:first-child > li:first-child,
+.dropdown.logged-in > .dropdown-item > li:last-child,
+.form-button,
+.form-control:focus,
+.tabs-container > .create-button,
+.text-block
+{
+    border-color: #00b9f2;
+}
+
+.form-button,
+.checkbox-description,
+.circle-step.complete,
+.dropdown.logged-in > .dropdown-item:first-child > li:first-child,
+.tab-button.active,
+.tabs-container > .create-button
+{
+    background-color: #00b9f2;
+}

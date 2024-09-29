@@ -1,0 +1,31 @@
+.reference-request-container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+    width: 45%;
+}
+
+.referent-color.block,
+.referent-color.block-label{
+    border-color: #36b64b;
+}
+    
+    .referent-color.block > .form-group-row > label,
+    .referent-color.block-label > h2 > .register-type-header-text{
+        color:#36b64b;
+    }
+
+.text-block{
+    align-self: center;
+}
+
+#send-button{
+    width: 20%;
+    align-self: flex-end;
+}
+
+#send-loader{
+    width: 16px;
+    height: 16px;
+    align-self: flex-end;
+}

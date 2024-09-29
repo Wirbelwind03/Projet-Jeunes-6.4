@@ -1,0 +1,244 @@
+.referrals-container{
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    width: 100%;
+}
+
+.block.referrals-sidebar{
+    margin-bottom: 0;
+}
+
+.referrals-sidebar{
+    width: 20%;
+    padding: 0;
+}
+
+.block.referrals-main{
+    margin-bottom: 0;
+}
+
+.referrals-main{
+    color: whitesmoke;
+    width: 100%;
+    padding: 0;
+}
+
+.clickable-row{
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #4f4f4f;
+    padding: 10px 10px 10px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+    .clickable-row > td:first-child{
+        padding-left: 16px;
+    }
+
+.referrals-header{
+    border-bottom: 1px solid #4f4f4f;
+    padding: 12px 0;
+    height: 16px
+}
+
+#referrals-header-content-options{
+    display: none;
+}
+
+    #referrals-header-content-options > ul{
+        margin: 0;
+        padding-left: 16px;
+        display: flex;
+        list-style-type: none;
+    }
+
+    #referrals-header-content-options > ul > li:first-child{
+        margin-right: 36px;
+    }
+
+    #referrals-header-content-options > ul > li:not(:last-child):not(:first-child){
+        margin-right: 24px;
+    }
+
+    #referrals-header-content-options > ul > li > button{
+        padding: 0;
+        border: 0;
+        background: none;
+    }
+
+#referrals-header-content-options > button:first-child{
+    margin-left: 4px;
+}
+
+.referral-list{
+    overflow-y: auto;
+}
+
+.referrals-table{
+    table-layout: fixed;
+    width: 100%;
+    border-spacing: 0;
+}
+
+#referrals > tr > td > span{
+    font-weight: normal;
+}
+
+#referrals-content{
+    visibility: visible;
+}
+
+.referral-content{
+    display: none;
+}
+
+    .referral-content > h3{
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .referral-content > form{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .referral-content > form > .form-button{
+        align-self: flex-end;
+    }
+
+.referral-content.show{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.referral-content-checkboxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.referral-content-header{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+}
+
+    .referral-content-header > img{
+        margin-right: 10px;
+        border-radius: 50%;
+    }
+
+    .referral-content-header > span{
+        margin-right: 10px;
+    }
+
+#referral-content-header-sender-receiver{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+
+.referral-receiver-name{
+    width: 45%;
+    white-space: nowrap; /* Prevent line breaks within the <td> */
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.referral-text{
+    white-space: nowrap; /* Prevent line breaks within the <td> */
+    text-overflow: ellipsis; /* Add ellipsis (...) when the text overflows */
+    overflow: hidden; /* Hide the overflowed text */
+    width: 100%;
+}
+
+.tabs-container{
+    flex-direction: column;
+}
+
+.referral-options{
+    display: none;
+}
+
+    .referral-options > ul{
+        margin: 0;
+        display: flex;
+        justify-content: space-around;
+        list-style-type: none;
+    }
+
+    .referral-options > ul > li:not(:last-child){
+        margin-right: 12px;
+    }
+
+    .referral-options > ul > li > button{
+        border: 0;
+        background: none;
+    }
+
+#referral-content-header-sender{
+    display: flex;
+    flex-direction: row;
+}
+
+    #referral-content-header-sender > span{
+        margin-right: 12px;
+    }
+
+
+
+#referral-content-header-receiver{
+    display: flex;
+    flex-direction: row;
+}
+
+.tabs-container > .create-button{
+    margin: 16px 16px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+    .tabs-container > .create-button > h3{
+        color: whitesmoke
+    }
+
+#wrap-loader{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 64px;
+    height: 64px;
+}
+
+#main-loader{
+    width: 32px;
+    height: 32px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#send-to-consultant-button-loader{
+    width: 16px;
+    height: 16px;
+    align-self: center;
+}
+
+.option-see-profil{
+    padding: 0;
+    border: 0;
+    background: none;
+}
+
+#referral-validated-message{
+    display: none;
+}
+
+

@@ -1,0 +1,8 @@
+.profil-card-header{
+    display: flex;
+    flex-direction: row;
+}
+
+    .profil-card-header > img{
+        margin-right: 10px;
+    }

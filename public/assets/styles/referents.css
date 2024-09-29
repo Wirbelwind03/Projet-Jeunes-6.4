@@ -1,0 +1,27 @@
+.user-color
+{
+    color: #36b64b;
+}
+
+.user-border-color,
+.block, 
+.checkbox-header,
+.checkbox-description,
+.dropdown.logged-in > .dropdown-item > li,
+.dropdown.logged-in > .dropdown-item:first-child > li:first-child,
+.dropdown.logged-in > .dropdown-item > li:last-child,
+.form-button,
+.form-control:focus,
+.text-block
+{
+    border-color: #36b64b;
+}
+
+.form-button,
+.checkbox-description,
+.circle-step.complete,
+.dropdown.logged-in > .dropdown-item:first-child > li:first-child,
+.tab-button.active
+{
+    background-color: #36b64b;
+}

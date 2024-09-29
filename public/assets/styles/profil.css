@@ -1,0 +1,26 @@
+.profil-container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+    width: 25%;
+}
+
+    .profil-container > .block > span{
+        font-weight: bold;
+        text-align: center;
+    }
+
+.profil-header{
+    padding: 10px 20px;
+    flex-direction: row;
+}
+
+    .profil-header > img{
+        margin-right: 10px;
+    }
+
+.profil-header-name{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}

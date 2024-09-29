@@ -1,0 +1,143 @@
+.settings-container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0;
+    width: 60%;
+}
+
+.settings-header{
+    display: flex;
+    flex-direction: row;
+    align-self: flex-start;
+    padding: 10px 20px;
+}
+
+    .settings-header > span{
+        margin-top: 10px;
+    }
+
+    .settings-header > img {
+        margin-right: 10px;
+    }
+
+.settings-header-name{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+}
+
+.settings-layout{
+    display: flex;
+    flex-direction: row;
+    padding: 0px;
+}
+
+.settings-layout-sidebar{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
+
+    .settings-layout-sidebar > .tabs-container{
+        flex-direction: column;
+    }
+
+    .settings-layout-sidebar > .tabs-container > .block{
+        padding: 0px;
+    }
+
+    .settings-layout-sidebar > .tabs-container > .block > button > h2{
+        padding: 10px;
+    }
+
+.settings-layout-main{
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    width: 70%;
+}
+
+.tab-content > h2{
+    margin-top: 0;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid;
+}
+
+.tab-button > h2{
+    margin: 0;
+}
+
+.settings-profil{
+    width: auto;
+}
+
+.settings-group{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+    .settings-group > span{
+        font-weight: bold;
+    }
+
+    .settings-group > span:not(:last-child){
+        margin-right: 5px;
+    }
+
+.settings-group.column{
+    flex-direction: column;
+}
+
+    .settings-group.column > label{
+        margin-bottom: 10px;
+    }
+
+.test{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.profil-picture-edit{
+    display: flex;
+    flex-direction: column;
+}
+
+    .profil-picture-edit > img{
+        margin-bottom: 10px;
+    }
+
+    .profil-picture-edit > span{
+        text-align: center;
+    }
+
+#save-settings{
+    align-self: flex-end;
+}
+
+#modify-profil-picture-loader{
+    width: 8px;
+    height: 8px;
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    align-self: center;
+}
+
+#save-settings-loader{
+    width: 16px;
+    height: 16px;
+    align-self: flex-end;
+}
+
+#modify-profil-picture-button{
+    background: none;
+    border: 0;
+}
+
+.settings-checkboxes-container{
+    padding: 40px;
+}

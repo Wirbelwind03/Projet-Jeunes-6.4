@@ -1,0 +1,37 @@
+{
+    "juniors": {
+        "doejohn@gmail.com": {
+            "name": "DOE",
+            "firstname": "John",
+            "birthDate": "2004-01-05",
+            "mail": "doejohn@gmail.com",
+            "password": "123",
+            "skills": [
+                "capable",
+                "listening",
+                "organized",
+                "passionate"
+            ],
+            "socialMedias": ""
+        }
+    },
+    "referents": {
+        "roerichard@gmail.com": {
+            "name": "ROE",
+            "firstname": "Richard",
+            "birthDate": "2023-01-05",
+            "mail": "roerichard@gmail.com",
+            "password": "123",
+            "presentation": "test"
+        }
+    },
+    "consultants": {
+        "foobar@gmail.com": {
+            "name": "FOO",
+            "firstname": "Bar",
+            "birthDate": "2003-01-05",
+            "mail": "foobar@gmail.com",
+            "password": "1234"
+        }
+    }
+}

@@ -1,0 +1,39 @@
+{
+    "referralsAll": {
+        "46bde5192fc323f04435e811720011e72426": {
+            "referentName": "ROE",
+            "referentFirstName": "Richard",
+            "referentMail": "roerichard@gmail.com",
+            "referentBirthDate": "",
+            "referentSocialMedias": "test",
+            "commentary": "test",
+            "expertises": [
+                "serious",
+                "honesty",
+                "tolerance",
+                "kindness"
+            ],
+            "juniorName": "DOE",
+            "juniorFirstName": "John",
+            "juniorMail": "doejohn@gmail.com",
+            "date": "11-06-23 11:08:51",
+            "commitment": "test",
+            "duration": "test",
+            "environment": "test",
+            "skills": [
+                "organized",
+                "passionate",
+                "reliable",
+                "patient"
+            ],
+            "validated": true,
+            "read": true
+        }
+    },
+    "referralsReceived": [
+        "46bde5192fc323f04435e811720011e72426"
+    ],
+    "referralsValidated": [
+        "46bde5192fc323f04435e811720011e72426"
+    ]
+}

@@ -1,0 +1,457 @@
+/* Variables pour le theme clair */
+[data-theme="light"] {
+    --color-one: #dadada;
+    --color-two: #c8c8c8;
+    --color-three: #a5a5a5;
+    --color-four: #e6e6e6;
+    --color-five: gray;
+}
+  
+/* Variables pour le theme sombre */
+[data-theme="dark"] {
+    --color-one: #252525;
+    --color-two: #373737;
+    --color-three: #5a5a5a;
+    --color-four: #191919;
+    --color-five: whitesmoke;
+}  
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: var(--color-one);
+    height: 100%;
+}
+
+header{
+    background-color: var(--color-two);
+}
+
+#wrap {
+    display: flex;
+    flex-direction: column; /* flex du haut vers le bat */
+    height: 100%;
+}
+
+main{
+    height: 100%;
+}
+
+a{
+    text-decoration: none;
+}
+
+p,
+a,
+h1,
+h2,
+h3,
+span{
+    color: var(--color-five);
+    font-weight: bold;
+}
+
+input{
+    border: 0;
+    border-bottom: 2px dotted;
+    background: none;
+    padding: 10px 0px;
+    color: var(--color-five);
+}
+
+input[type="text"][disabled] {
+    color: gray;
+    font-style: italic;
+ }
+
+textarea{
+    resize: none;
+    color: gray;
+}
+
+input:focus,
+textarea:focus{
+    outline: none;
+}
+
+
+label{
+    color: var(--color-five);
+    font-weight: bold;
+}
+
+button{
+    border-radius: 0px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*#region main*/
+
+.registration-container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0px;
+}
+
+.register-type-description-text{
+    color: whitesmoke;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-four);
+    border: 2.5px solid var(--color-four);
+    color: var(--color-one);
+    padding: 40px 40px;
+    margin-bottom: 10px;
+}
+
+.block-label{
+    width: 50%;
+    padding: 0;   
+}
+
+    .block-label > h2{
+        margin-left: 40px;
+    }
+
+.text-block{
+    display: flex;
+    flex-direction: column;
+    background-color: var(--color-two);
+    border: 2.5px solid;
+    padding: 40px;
+    margin-bottom: 10px;
+}
+
+    .text-block > h1, .text-block > h2{
+        margin: 0;
+    }
+
+.block-tab-label{
+    width: 50%;
+    padding: 0;
+}
+
+    .block-tab-label > h2{
+        text-align: center;
+    }
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+}
+
+    .form-group > label{
+        font-size: 16px;
+        font-weight: bold;
+        margin-bottom: 10px;
+    }
+
+    .form-group:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+.form-group-row{
+    display: flex;
+    flex-direction: row;
+}
+
+    .form-group-row > input{
+        flex-grow: 1;
+        padding: 5px;
+    }
+
+    .form-group-row > label{
+        font-size: 16px;
+        font-weight: bold;
+        align-self: center;
+        margin-right: 10px;
+    }
+
+    .form-group-row:not(:last-child){
+        margin-bottom: 20px;
+    }
+
+.form-control{
+    display: block;
+}
+
+.form-button{
+    padding: 15px;
+    border: 1px solid black;
+    color: whitesmoke;
+    padding: 15px 20px;
+}
+
+.form-button-group{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-group:not(:last-child){
+    margin-bottom: 10px;
+}
+
+.checkbox-group > label{
+    color: gray;
+}
+
+.previous-button{
+    align-self: flex-start; /* Mettre le button du coté gauche de la form */
+}
+
+.next-button{
+    align-self: flex-end; /* Mettre le button du coté droit de la form */
+}
+
+.required{
+    color:red;
+}
+
+.tab{
+    display: none;
+    flex-direction: column;
+}
+
+.circle-steps{
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.circle-step {
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: whitesmoke;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+    .circle-step.active{
+        opacity: 1;
+    }
+
+
+.tabs-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.tab-button{
+    border: 0;
+    padding: 0;
+    background: transparent;
+    flex-grow: 1;
+}
+
+    .tab-button.active > h2,
+    .tab-button.active > h3{
+        color: whitesmoke;
+    }
+
+.commentary{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+    .commentary h1{
+        margin: 0;
+        text-align: right;
+        color: whitesmoke;
+    }
+
+.checkbox-header{
+    padding: 20px;
+    background-color: var(--color-one);
+}
+
+    .checkbox-header h2{
+        margin: 0;
+        text-align: center;
+    }
+
+.checkbox-description{
+    padding: 20px;
+}
+
+    .checkbox-description h1{
+        margin: 0;
+        text-align: right;
+        color: whitesmoke;
+    }
+
+.checkbox-requirement{
+    padding: 20px;
+    text-align: center;
+    background-color: var(--color-one);
+}
+
+    .checkbox-requirement span{
+        font-weight: bold;
+    }
+
+.ask-account{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+    .ask-account span{
+        align-self: center;
+    }
+
+.username{
+    font-weight: bold;
+}
+
+.login-form > form > .form-button{
+    width: 100%;
+}
+
+#overlay {
+    position: fixed; /* Sit on top of the page content */
+    display: none; /* Hidden by default */
+    width: 100%; /* Full width (cover the whole page) */
+    height: 100%; /* Full height (cover the whole page) */
+    top: 0;
+    background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+    cursor: pointer; /* Add a pointer on hover */
+}
+
+.exit-button{
+    border-radius: 0;
+    background-color: red;
+    color:whitesmoke;
+    border-color: red;
+    margin-bottom: 10px;
+    padding: 4px 6px;
+    position: absolute;
+}
+
+/* Barre de chargement */
+.loader 
+{
+    display: none;
+    border: 16px solid #f3f3f3; /* Light grey */
+    border-top: 16px solid #3498db; /* Blue */
+    border-radius: 50%;
+    animation: spin 2s linear infinite;
+}
+
+/* Animation pour le loader */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+/* Couleur pour chaque type d'utilisateur */
+.juniors-color{
+    color: #fb3199 !important;
+}
+
+.juniors-border-color{
+    border-color: #fb3199 !important;
+}
+
+.juniors-linear-gradient-type1{
+    background: linear-gradient(to right, #efcfd9, #fb3199);
+}
+
+.juniors-linear-gradient-type2{
+    background: linear-gradient(to right, #fcf2f4, #e3cfd3);
+}
+
+    .juniors-linear-gradient-type2 > .checkbox-group > label{
+        color: gray;
+    }
+
+.referents-color{
+    color: #36b64b !important;
+}
+
+.referents-border-color{
+    border-color: #36b64b !important;
+}
+
+.referents-linear-gradient-type1{
+    background: linear-gradient(to right, #96a64e, #36b64b);
+}
+
+.referents-linear-gradient-type2{
+    background: linear-gradient(to right, #f1f4d6, #d1de8e);
+}
+
+.consultants-color{
+    color: #00b9f2 !important;
+}
+
+.consultants-border-color{
+    border-color: #00b9f2 !important;
+}
+
+.consultants-linear-gradient-type1{
+    background: linear-gradient(to right, #9acee6, #00b9f2);
+}
+
+.consultants-linear-gradient-type2{
+    background: linear-gradient(to right, #f7fbfc, #b8dcea);
+}
+
+
+.referral-validation{
+    display: none;
+    position: absolute;
+}
+
+.send-to-consultant-form-container{
+    display: none;
+    position: absolute;
+    width: 40%;
+}
+
+.send-to-consultant-form-container > form > .loader{
+    display: none;
+}
+
+.profil-card-container{
+    display: none;
+    position: absolute;
+}
+
+.error-text{
+    margin-top: 10px;
+}
+
+.profil-information-group{
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+    .profil-information-group > span{
+        margin-right: 5px;
+    }
+
+/*#endregion main*/

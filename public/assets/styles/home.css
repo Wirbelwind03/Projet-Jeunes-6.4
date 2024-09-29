@@ -1,0 +1,50 @@
+.home-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 300px;
+    margin-right: 300px;
+}
+
+    .home-container > p{
+        font-size: 18px;
+    }
+
+.commitment-steps-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-block: 50px;
+}
+
+    .commitment-steps-container .description-box{
+        display: flex;
+        flex-direction: column;
+        border: 4px solid;
+        width: 20%;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    .commitment-steps-container > .description-box > span:first-child{
+        text-align: center;
+        font-size: 24px;
+        padding: 10px 0px;
+        font-weight: normal;
+        color: whitesmoke;
+    }
+
+    .commitment-steps-container > .description-box > span:last-child{
+        padding: 10px;
+        flex:1;
+        color: gray
+    }
+
+.welcome-message{
+    align-self: center;
+    margin-top: -50px;
+}
+
+.description{
+    font-weight: normal;
+}

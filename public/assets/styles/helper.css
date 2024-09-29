@@ -1,0 +1,39 @@
+.cut-top{
+    border-top: none;
+    margin-top: 0;
+}
+
+.cut-margin-top{
+    margin-top: 0;
+}
+
+.cut-bottom{
+    border-bottom: none !important;
+    margin-bottom: 0 !important;
+}
+
+.cut-margin-bottom{
+    margin-bottom: 0;
+}
+
+.cut-border-left{
+    border-left: none;
+    margin-left: 0;
+}
+
+.cut-margin-left{
+    margin-left: 0;
+}
+
+.cut-border-right{
+    border-right: none;
+    margin-right: 0;
+}
+
+.cut-border-right-radius{
+    margin-right: 0;
+}
+
+.hide{
+    display: none;
+}
